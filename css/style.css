@@ -1,0 +1,350 @@
+/* Body Styles */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #111111;
+}
+
+/* Navigation Bar Styles */
+nav {
+    background-color: #111111;
+    color: white;
+    margin: 0;
+    position: relative;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.logo img {
+    transform: scale(0.8);
+    margin-left: 50px;
+}
+
+.list-items {
+    margin-right: 100px;
+}
+
+.list-items ul {
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.list-item::after {
+    content: '▼';
+    margin-left: 5px;
+    visibility: hidden;
+    width: 10px;
+    display: inline-block;
+}
+
+.list-item:hover::after {
+    visibility: visible;
+}
+
+/* Main Navigation Text */
+.nav_main {
+    display: flex;
+}
+
+.person img {
+    height: 550px;
+    margin-left: 100px;
+}
+
+.nav_text {
+    margin-top: 150px;
+    margin-left: 10px;
+}
+
+.nav_text h1 {
+    font-size: 4rem;
+    margin: 0;
+}
+
+.nav_text h4 {
+    margin: 0;
+    color: #c91b28;
+}
+
+.nav_text p {
+    color: #b2b2b2;
+    margin-bottom: 20px;
+}
+
+.nav_text button {
+    padding: 10px 30px;
+    color: white;
+    background-color: #c91b28;
+    border: 0;
+    cursor: pointer;
+}
+
+/* Services Section */
+.service {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    margin-top: 100px;
+    color: white;
+}
+
+.services img {
+    width: 50px;
+    height: 50px;
+}
+
+.services {
+    background-color: #1e1e1e;
+    padding: 20px 40px;
+}
+
+.feat_1 {
+    position: relative;
+    left: 100px;
+}
+
+.feat_1 p:last-child {
+    color: #c91b28;
+}
+
+.feat_3 {
+    position: relative;
+    right: 100px;
+}
+
+.feat_3 p:last-child {
+    color: #c91b28;
+}
+
+.feat_2 {
+    background-color: #c91b28;
+}
+
+.feat_2 p:last-child {
+    color: whitesmoke;
+}
+
+/* Background Styles */
+.back {
+    position: absolute;
+    background-color: #181818;
+    width: 600px;
+    height: 800px;
+    left: 0;
+    z-index: -10;
+}
+
+/* Authority Section */
+.authority {
+    display: flex;
+    margin: 120px 0;
+    justify-content: space-between;
+}
+
+.exp {
+    position: relative;
+    left: 180px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.exp p:first-child {
+    font-size: 4rem;
+    font-weight: bold;
+    margin: 0;
+    color: #c91b28;
+    padding: 0;
+    text-align: center;
+}
+
+.exp p:last-child {
+    font-size: 1.2;
+    color: white;
+}
+
+.auth {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Information Section */
+.info {
+    position: relative;
+    right: 100px;
+    width: 200px;
+    text-align: center;
+    padding: 20px 50px;
+    margin-right: 50px;
+    background-color: #1e1e1e;
+}
+
+.info p:first-child {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #c91b28;
+    margin: 0;
+}
+
+.info p:last-child {
+    color: white;
+    font-size: 13px;
+}
+
+/* Projects Section */
+.projects {
+    color: white;
+}
+
+.project_head {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.pro_head {
+    position: relative;
+    left: 100px;
+}
+
+.pro_head h1 {
+    margin: 0;
+    font-size: 1.3rem;
+}
+
+.pro_head p {
+    font-size: 14px;
+    color: #b4b4b4;
+}
+
+.project_button {
+    position: relative;
+    right: 100px;
+}
+
+.project_button button {
+    padding: 10px 30px;
+    color: white;
+    background-color: #c91b28;
+    border: white;
+    cursor: pointer;
+}
+
+/* Layout Section */
+.lay {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-bottom: 30px;
+    margin-right: 150px;
+    margin-left: 150px;
+}
+
+.pic {
+    background-color: #1e1e1e;
+    padding: 60px 20px;
+}
+
+.pic img {
+    width: 400px;
+}
+
+.big img {
+    width: 400px;
+    height: 225px;
+}
+
+/* Process Section */
+.proc p {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.proc p:last-child {
+    color: #c91b28;
+    font-size: 14px;
+}
+
+/* Contact Section */
+.contact {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    background-color: #1e1e1e;
+    padding: 40px 0;
+    margin-left: 100px;
+}
+
+.contact_info {
+    padding: 0 50px;
+}
+
+.contact_info h1 {
+    font-size: 2.5rem;
+    margin: 0;
+    color: white;
+}
+
+.contact_info p {
+    color: #b2b2b2;
+    font-size: 14px;
+   
+}
+
+.contact_button button {
+    padding: 10px 40px;
+    color: white;
+    position: relative;
+    top: 60px;
+    right: 150px;
+    background-color: #c91b28;
+    border: none;
+    cursor: pointer;
+}
+
+/* List Section */
+.list ul {
+    margin-top: 70px;
+    margin-bottom: 30px;
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    justify-content: center;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+/* Footer Styles */
+footer {
+    display: flex;
+    padding: 30px 0;
+    background-color: #1e1e1e;
+}
+
+.foot_logo {
+    transform: scale(0.8);
+    margin-left: 100px;
+}
+
+.foot_social {
+    margin-left: 350px;
+    position: relative;
+    top: 10px;
+
+}
+
+.foot_social img {
+    margin-right: 30px;
+    cursor: pointer;
+}
